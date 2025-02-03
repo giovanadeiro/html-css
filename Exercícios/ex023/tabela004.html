@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de tabela completa</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3" scope="rowgroup">Mulheres</td>
+                <td>Abigail Santos</td>
+                <td>Coraline</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Maitê Souza</td>
+                <td>Homem de Ferro</td>
+                <td>Harry Potter</td>
+                <td>Transformers</td>
+            </tr>
+            <tr>
+                <td>Vivian Mendes</td>
+                <td>Animais Fantásticos</td>
+                <td>Maze Runner</td>
+                <td>Os Farofeiros</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td rowspan="3" scope="rowgroup">Homens</td>
+                <td>Marcos Menezes</td>
+                <td>Divergente</td>
+                <td>Venom</td>
+                <td>A Hora do Rush</td>
+            </tr>
+            <tr>
+                <td>Ethan Parker</td>
+                <td>Matriz</td>
+                <td>Big Hero</td>
+                <td>A Teia</td>
+            </tr>
+            <tr>
+                <td>Júlio Mendonça</td>
+                <td>Clube da Luta</td>
+                <td>Gladiador</td>
+                <td>Van Helsing</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
